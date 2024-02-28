@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> O nás </title>
+        <link rel="icon" href="images/logo_priehladne.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" 
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo_priehladne.png" class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <img src="images/icons/cross_W.png" class="fa" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="index.html">DOMOV</a></li>
+                        <li><a href="onas.html">O NÁS</a></li>
+                        <li><a href="zapasy.html">ZÁPASY</a></li>
+                        <li><a href="gallery.html">GALÉRIA</a></li>
+                        <li><a href="kontakt.html">KONTAKT</a></li>
+                    </ul>
+                </div>
+                <img src="images/icons/menu_W.png" class="fa" onclick="showMenu()"></i>
+            </nav>
+            <h1>O nás - ženách FK Poprad</h1>
+        </section>  
+
+
+        <!-------------- O nás sekcie --------------->
+
+        <section class="o-nas">
+
+            <div class="row">
+                <div class="onas-col">
+                    <h1>Kto sme? Ženy spod Tatier!</h1>
+                    <p>Sme ženský futbalový tím. Futbal hráme neprofesionálne, 
+                        no pravidelnými tréningovými procesmi 3x týždenne a prípravymi zimnými či letnými
+                        sa snažíme dosahovať tie najlepšie výsledky. V našel lige máme tímy z celého Slovenska.
+                        Počas zápasových víkendov cestujeme aj do Nitry, Nových Zámkov či Bratislavy.
+                        Počas týchto dlhých cies v autobuse spolu zažívame kopec srandy, počúvame hudbu a rady sa zabávame.
+                        Absolvujeme aj halový turanaj v Čechách ale aj rôzne teambuildingy mimo ihriska. 
+                        Naše členky nie sú lez z Popradu. 
+                        Medzi nami sa nájdu aj baby z Kežmaru, Liptova či Spiša. Futbal je pre nás radosť a vášeň. 
+                        Nezáleží na tom, odkiaľ si, ak sa k nám chceš pridať neváhaj a kontaktuj nás. </p>
+                    <a href="" class="hero-btn gold-btn">ZISTI VIAC</a>
+                </div>
+                <div class="onas-col">
+                    <img src="images/IMG_2805.jpg">
+                </div>
+            </div>
+        </section>
+
+
+
+         <!------ Footer ------->
+
+         <footer>
+            <div class="fcontainer">    
+                <div class="footer-content">
+                    <h3>Kontaktujte nás</h3>>
+                    <div class="kontakt">
+                    <p>Email: fkpoprad.zeny@gmail.com</p>
+                    <p>Telefón: +421 895 742 117</p>
+                    <p>Adresa: Fraňa Kráľa, Poprad-Veľká</p>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <h3>Podstránky</h3>
+                            <ul class="list">
+                                <li><a href="index.html">DOMOV</a></li>
+                                <li><a href="onas.html">O NÁS</a></li>
+                                <li><a href="zapasy.html">ZÁPASY</a></li>
+                                <li><a href="gallery.html">GALÉRIA</a></li>
+                                <li><a href="kontakt.html">KONTAKT</a></li>
+                            </ul>
+                </div>
+                <div class="footer-content">
+                    <h3>Sledujte nás</h3>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/fkpopradzeny/"><img src="images/icons/facebook_W.png" width="20" height="20"></img></a></li>
+                        <li><a href="https://www.instagram.com/fk_poprad_zeny/"><img src="images/icons/instagram_W.png" width="20" height="20"></img></a></li>
+                        <li><a href="https://sportnet.sme.sk/futbalnet/k/fk-poprad/tim/59488/?partId=&sutaz=647a3e167b634444d155b13c"><img src="images/icons/ball.png" width="20" height="20"></img></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <p>&copy; 2023 Paulína Orolínová . All rights reserved </p>
+            </div>
+        </footer>
+
+
+
+        <!-----------JavaScript pre menu-------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

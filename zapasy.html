@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Zápasy </title>
+        <link rel="icon" href="images/logo_priehladne.png" type="image/x-icon">
+        <link rel="stylesheet" href="zapasy.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" 
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo_priehladne.png" class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <img src="images/icons/cross_W.png" class="fa" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="index.html">DOMOV</a></li>
+                        <li><a href="onas.html">O NÁS</a></li>
+                        <li><a href="zapasy.html">ZÁPASY</a></li>
+                        <li><a href="gallery.html">GALÉRIA</a></li>
+                        <li><a href="kontakt.html">KONTAKT</a></li>
+                    </ul>
+                </div>
+                <img src="images/icons/menu_W.png" class="fa" onclick="showMenu()"></i>
+            </nav>
+            <h1>Zápasy</h1>
+        </section>  
+
+
+        <section class="b row-result">
+            <div class="nadpis">
+                <h1 class="biely">Výsledky zápasov</h1>
+                <p class="biely">Pozri si výsledok nášho posledného zápasu. Pre ďalšie výsledky naších zápasov klikaj na tlačidlo nižšie!</p>
+            </div>
+            <div class="container">
+                <div class="result">
+                    <div class="match col">
+                        <div class="match-header">
+                            <div class="match-status">Naživo</div>
+                            <div class="match-tournament">
+                                <h4>II. liga Ženy (Slovensko)</h4>
+                            </div>
+                            
+                        </div>
+                        <div class="match-content">
+                            <div class="column">
+                                <div class="team team--home">
+                                    <div class="team-logo">
+                                        
+                                        <img src="images/Martin_logo.jpg" />
+                                    </div>
+                                    <h2 class="team-name">MŠK FOMAT MARTIN</h2>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="match-details">
+                                    <div class="match-date">
+                                        4.11.2023 o <strong>15:00</strong>
+                                    </div>
+                                    <div class="match-score">
+                                        <span class="match-score-number match-score-number--leading">3</span>
+                                        <span class="match-score-divider">:</span>
+                                        <span class="match-score-number">1</span>
+                                    </div>
+                                    <div class="match-time-lapsed">
+                                        64'
+                                    </div>
+                                    <div class="match-spectators">
+                                        (30 divákov)
+                                    </div>
+                                    <div class="match-referee">
+                                        Rozhodca: <br><strong>Peter Scherer</strong>
+                                    </div>
+                                    <div class="match-bet-options">
+                                        <a href="https://sportnet.sme.sk/futbalnet/z/sfz/zapas/742152/" target="_blank">
+                                            <button class="match-bet-place">Zistiť viac</button>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="team team--away">
+                                    <div class="team-logo">
+                                
+                                        <img src="images/logo_priehladne.png" />
+                                    </div>
+                                    <h2 class="team-name">FK POPRAD</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class=" tabulka">
+            <div class="nadpis">
+                <h1 >Tabuľka</h1>
+                <p>Prehľad všetkých zápasov na jedom mieste. Pozrite sa, ako vyzerá prehľad našej ženskej ligy.</p>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>PČ</th>
+                        <th>Klub</th>
+                        <th>Z</th>
+                        <th>V</th>
+                        <th>R</th>
+                        <th>P</th>
+                        <th>Skóre</th>
+                        <th>B</th>
+                        <th>K</th>
+                        <th>+</th>
+                        <th>FP</th>
+                        <th>Forma</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Partizán Bardejov BŠK</td>
+                        <td>9</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>39:10</td>
+                        <td>24</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td></td>
+                        <td>V V P V V</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>KFC Komárno</td>
+                        <td>9</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>43:7</td>
+                        <td>24</td>
+                        <td>10</td>
+                        <td>9</td>
+                        <td></td>
+                        <td>V V V P V</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>FC KOŠICE</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>49:7</td>
+                        <td>21</td>
+                        <td>9</td>
+                        <td>6</td>
+                        <td></td>
+                        <td>V V V V V</td>
+                    </tr>.
+                    <tr>
+                        <td>4.</td>
+                        <td>ŠK 2011</td>
+                        <td>9</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>39:11</td>
+                        <td>19</td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td></td>
+                        <td>P V V V P</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>FK Nitra</td>
+                        <td>9</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>24:14</td>
+                        <td>19</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td></td>
+                        <td>P V V V V</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>FC ViOn Zlaté Moravce</td>
+                        <td>9</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>5</td>
+                        <td>15:22</td>
+                        <td>12</td>
+                        <td>6</td>
+                        <td>-3</td>
+                        <td></td>
+                        <td>P P V P P</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>MŠK FOMAT Martin</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>6</td>
+                        <td>17:36</td>
+                        <td>9</td>
+                        <td>5</td>
+                        <td>-6</td>
+                        <td></td>
+                        <td>P V P V P</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>MŠK Považská Bystrica</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>7</td>
+                        <td>19:27</td>
+                        <td>9</td>
+                        <td>4</td>
+                        <td>-6</td>
+                        <td></td>
+                        <td>V P P P P</td>
+                    </tr>
+                    <tr>
+                        <td>9.</td>
+                        <td>FC Union Nové Zámky</td>
+                        <td>9</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>7</td>
+                        <td>8:26</td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td>-9</td>
+                        <td></td>
+                        <td>P P V P V</td>
+                    </tr>
+                    <tr>
+                        <td>10.</td>
+                        <td>FK Poprad</td>
+                        <td>9</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>7</td>
+                        <td>9:41</td>
+                        <td>6</td>
+                        <td>2</td>
+                        <td>-6</td>
+                        <td></td>
+                        <td>P P P V P</td>
+                    </tr>
+                    <tr>
+                        <td>11.</td>
+                        <td>Futbalová komunita Kozmos</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>9</td>
+                        <td>3:40</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>-9</td>
+                        <td></td>
+                        <td>P P P P P</td>
+                    </tr>
+                </tbody>
+            </table>
+            </section>
+
+
+        <!------ Footer ------->
+
+        <footer>
+            <div class="fcontainer">    
+                <div class="footer-content">
+                    <h3>Kontaktujte nás</h3>>
+                    <div class="kontakt">
+                    <p>Email: fkpoprad.zeny@gmail.com</p>
+                    <p>Telefón: +421 895 742 117</p>
+                    <p>Adresa: Fraňa Kráľa, Poprad-Veľká</p>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <h3>Podstránky</h3>
+                            <ul class="list">
+                                <li><a href="index.html">DOMOV</a></li>
+                                <li><a href="onas.html">O NÁS</a></li>
+                                <li><a href="zapasy.html">ZÁPASY</a></li>
+                                <li><a href="gallery.html">GALÉRIA</a></li>
+                                <li><a href="kontakt.html">KONTAKT</a></li>
+                            </ul>
+                </div>
+                <div class="footer-content">
+                    <h3>Sledujte nás</h3>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/fkpopradzeny/"><img src="images/icons/facebook_W.png" width="20" height="20"></img></a></li>
+                        <li><a href="https://www.instagram.com/fk_poprad_zeny/"><img src="images/icons/instagram_W.png" width="20" height="20"></img></a></li>
+                        <li><a href="https://sportnet.sme.sk/futbalnet/k/fk-poprad/tim/59488/?partId=&sutaz=647a3e167b634444d155b13c"><img src="images/icons/ball.png" width="20" height="20"></img></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <p>&copy; 2023 Paulína Orolínová . All rights reserved </p>
+            </div>
+        </footer>
+
+        <!-----------JavaScript pre menu-------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
